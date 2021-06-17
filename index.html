@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Library</h1>
+    <center>
+        <div class="inputbook">
+            <h2>Add New Book</h2>
+            <table>
+                <tr>
+                    <td><h4>Book Name</h4></td>
+                    <td><input type="text" name="bookname" id="bookname" title="hello" hint="hello"></td>
+                </tr>
+                <tr>
+                    <td><h4>Author Name</h4></td>
+                    <td><input type="text" name="authorname" id="authorname"></td>
+                </tr>
+                <tr>
+                    <td><h4>Number Of Pages</h4></td>
+                    <td><input type="number" name="numberofpages" id="numberofpages"></td>
+                </tr>
+                <tr>
+                    <td><h4>Have You Read</h4></td>
+                    <td><input type="checkbox" name="read" id="read"></td>
+                </tr>
+            </table>
+            <button id="addbookbtn" style="width: 100px; height: 50px; background-color: cyan; color: black; margin-bottom: 10px;">Add Book</button>
+        </div>
+    </center>
+    <div class="bookshelf" id="bookshelf"></div>
+    <script src="script.js"></script>
+</body>
+</html>

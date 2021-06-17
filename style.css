@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+.bookshelf{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.book{
+    border-style: solid;
+    margin: 20px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputbook{
+    height: 90%;
+    width: 30%;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputbook td{
+    width: 150px;
+}
+.inputbook input{
+    width: 200px;
+    height: 30px;
+}
